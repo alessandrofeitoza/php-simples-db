@@ -9,4 +9,4 @@ $query->execute();
 
 $bebidas = $query->fetchAll();
 
-include 'tabela.phtml';
+include 'paginas-html/tabela.phtml';
